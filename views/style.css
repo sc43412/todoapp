@@ -1,0 +1,74 @@
+   /* global */
+   
+   html,
+   body {
+       padding: 0;
+       margin: 0;
+       width: 100vw;
+       height: 100vh;
+       position: relative;
+       overflow: hidden;
+       background-color: whitesmoke;
+   }
+   
+   label {
+       text-transform: uppercase;
+   }
+   /* styling the heading */
+   
+   h1 {
+       color: #d54d7b;
+       font-family: "Great Vibes", cursive;
+       font-size: 50px;
+       line-height: 30px;
+       font-weight: normal;
+       margin-bottom: 0px;
+       margin-top: 10px;
+       text-align: center;
+       text-shadow: 0 1px 1px #fff;
+   }
+   /* first part designing */
+   
+   .container form {
+       margin-top: 40px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   
+   form {
+       display: flex;
+       flex-direction: column;
+   }
+   
+   .choose-items {
+       margin-top: 2rem;
+       display: flex;
+       justify-content: space-between;
+   }
+   
+   input[type="text"] {
+       font-size: 1.5rem;
+       border: none;
+       outline: none;
+       width: 100%;
+       padding-top: auto;
+       padding-bottom: auto;
+   }
+   
+   select {
+       border: none;
+       outline: none;
+       border-radius: 5%;
+       width: 10%;
+   }
+   
+   input[type="date"] {
+       font-size: 0.9rem;
+       border: none;
+       outline: none;
+       border-radius: 5%;
+   }
+   
+   .table {
+       margin-left: 120px;
+   }
